@@ -20,8 +20,8 @@ temp$created_at <- as.character(temp$created_at)
 
 
 # Load previous version
-if(file.exists("data/tweet_df_hist.csv")){
-  hist <- read.csv("data/tweet_df_hist.csv", colClasses = "character")
+if(file.exists("data/tweet.csv")){
+  hist <- read.csv("data/tweet.csv", colClasses = "character")
   temp <- temp[!(temp$status_id %in% hist$status_id),]
   hist <- rbind(temp, hist)
 }else{
@@ -54,7 +54,7 @@ if(n>0){
   }
  
   write.csv(res, file = "data/outputProfughi.csv", row.names = F)
-  write.csv(hist, file = "data/tweet_df_hist.csv", row.names = F)
+  write.csv(hist, file = "data/tweet.csv", row.names = F)
 }
 
 
