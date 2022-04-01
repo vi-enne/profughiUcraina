@@ -48,13 +48,13 @@ if(n>0){
   
   res$Data <- as.character(as.Date(res$Data))
   
-  if(file.exists("outputProfughi.csv")){
-    hist_res <- read.csv("outputProfughi.csv")
+  if(file.exists("data/outputProfughi.csv")){
+    hist_res <- read.csv("data/outputProfughi.csv")
     res <- rbind(res, hist_res)
   }
  
-  write.csv(res, file = "data/outputProfughi.csv", row.names = F)
-  write.csv(hist, file = "data/tweet.csv", row.names = F)
+  write.csv(res, file = "data/outputProfughi.csv", row.names = F, fileEncoding = "UTF-8")
+  write.csv(hist, file = "data/tweet.csv", row.names = F, fileEncoding = "UTF-8")
 }
 
 
