@@ -25,10 +25,10 @@ jobs:
     # Set-up R
     - name: Install packages
       run: |
-        R -e 'install.packages(c("rtweet", "stringr"))'
+        R -e 'install.packages(c("rtweet", "stringr", "here"))'
     # Run R script
     - name: scrap
-      run: Rscript profughiUcraina.R
+      run: Rscript script/profughiUcraina.R
      
  # Add new files in data folder, commit along with other modified files, push
     - name: Commit files

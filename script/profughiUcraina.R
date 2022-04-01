@@ -1,5 +1,6 @@
 library(rtweet)
 library(stringr)
+library(here)
 
 # Create a token containing the Twitter keys
 token <- create_token(
@@ -20,8 +21,8 @@ temp$created_at <- as.character(temp$created_at)
 
 
 # Load previous version
-if(file.exists("data/tweet.csv")){
-  hist <- read.csv("data/tweet.csv", colClasses = "character")
+if(file.exists(here("data", "tweet.csv"))){
+  hist <- read.csv(here("data", "tweet.csv"), colClasses = "character")
   temp <- temp[!(temp$status_id %in% hist$status_id),]
   hist <- rbind(temp, hist)
 }else{
@@ -48,13 +49,13 @@ if(n>0){
   
   res$Data <- as.character(as.Date(res$Data))
   
-  if(file.exists("data/outputProfughi.csv")){
-    hist_res <- read.csv("data/outputProfughi.csv")
+  if(file.exists(here("data", "outputProfughi.csv"))){
+    hist_res <- read.csv(here("data", "outputProfughi.csv"))
     res <- rbind(res, hist_res)
   }
  
-  write.csv(res, file = "data/outputProfughi.csv", row.names = F, fileEncoding = "UTF-8")
-  write.csv(hist, file = "data/tweet.csv", row.names = F, fileEncoding = "UTF-8")
+  write.csv(res, file = here("data", "outputProfughi.csv"), row.names = F, fileEncoding = "UTF-8")
+  write.csv(hist, file = here("data", "tweet.csv"), row.names = F, fileEncoding = "UTF-8")
 }
 
 
