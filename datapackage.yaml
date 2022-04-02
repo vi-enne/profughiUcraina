@@ -1,0 +1,59 @@
+# --------
+# metadata: data/outputProfughi.csv data/tweet.csv
+# --------
+
+profile: data-package
+resources:
+  - encoding: utf-8
+    format: csv
+    hashing: md5
+    name: outputprofughi
+    path: data/outputProfughi.csv
+    profile: tabular-data-resource
+    schema:
+      fields:
+        - name: Data
+          type: date
+          description: Tweet date
+        - name: Totale
+          type: integer
+          description: Total number of Ukrainian refugees arrived in Italy
+        - name: Uomini
+          type: integer
+          description: Number of Ukrainian men who arrived in Italy
+        - name: Donne
+          type: integer
+          description: Number of Ukrainian women who arrived in Italy
+        - name: Minori
+          type: integer
+          description: Number of Ukrainian minors who arrived in Italy
+    scheme: file
+  - encoding: cp1252
+    format: csv
+    hashing: md5
+    name: tweet
+    path: data/tweet.csv
+    profile: tabular-data-resource
+    schema:
+      fields:
+        - name: user_id
+          type: integer
+        - name: status_id
+          type: integer
+        - name: created_at
+          type: datetime
+        - name: screen_name
+          type: string
+        - name: text
+          type: string
+    scheme: file
+name: ukrainian-refugees
+title: Ukrainian Refugees
+description: Viminale's tweets scraping in order to collect ukrainian refugees data.
+contributors:
+  - title: Vittorio Nicoletta
+    email: vittorio.nicoletta.1@gmail.com
+licenses:
+  - name: CC-BY-4.0
+    title: Creative Commons Attribution 4.0
+    path: https://creativecommons.org/licenses/by/4.0/
