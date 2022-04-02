@@ -6,7 +6,7 @@
 ⚠️ If you want to receive updates, subscribe to the [ChangeLog RSS feed](https://github.com/vi-enne/profughiUcraina/commits/main/CHANGELOG.md.atom)
 
 ## Description
-We collect ukrainian refugees data based on Viminale's tweet (Italy). Data are scraped with this [R script](https://github.com/vi-enne/profughiUcraina/blob/main/script/profughiUcraina.R). 
+We collect ukrainian refugees data based on [Viminale's tweet](https://twitter.com/viminale) (Italy). Data are scraped with this [R script](https://github.com/vi-enne/profughiUcraina/blob/main/script/profughiUcraina.R). 
 
 ## Repository structure
 ```
@@ -58,7 +58,7 @@ wip | wip | wip | wip
 ⚠️ Se vuoi rimanere aggiornato, iscriviti al [feed RSS del ChangeLog](https://github.com/vi-enne/profughiUcraina/commits/main/CHANGELOG.md.atom)
 
 ## Descrizione
-Raccogliamo e rilasciamo dati relativi al flusso di profughi ucraini basati sui tweet dell'account ufficiale del Viminale. Lo scraping avviene tramite [questo script in R](https://github.com/vi-enne/profughiUcraina/blob/main/script/profughiUcraina.R).
+Raccogliamo e rilasciamo dati relativi al flusso di profughi ucraini basati sui tweet dell'[account ufficiale del Viminale](https://twitter.com/viminale). Lo scraping avviene tramite [questo script in R](https://github.com/vi-enne/profughiUcraina/blob/main/script/profughiUcraina.R).
 
 ## Struttura repository
 ```
