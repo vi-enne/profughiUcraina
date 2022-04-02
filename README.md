@@ -1,4 +1,5 @@
 # profughiUcraina
+[![](https://img.shields.io/badge/frictionless-ready-%23EA6D4C)](https://frictionlessdata.io/) <a href="https://www.datibenecomune.it/"><img src="https://img.shields.io/badge/%F0%9F%99%8F-%23datiBeneComune-%23cc3232"/></a>
 
 > ⚠️ WORK IN PROGRESS
 
