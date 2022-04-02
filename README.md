@@ -43,3 +43,6 @@ wip | wip | wip | wip
 wip | wip | wip | wip
 wip | wip | wip | wip
 wip | wip | wip | wip
+
+## License
+<a href="https://creativecommons.org/licenses/by/4.0/"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/CC-BY_icon.svg/640px-CC-BY_icon.svg.png" width="150"/></a>
