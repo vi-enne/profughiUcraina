@@ -11,6 +11,7 @@ profughiUcraina
 ├── 📂 script
 │   └── 📄 profughiUcraina.R
 ├── 📄 README.md
+├── 📄 CHANGELOG.md
 ├── 📄 LICENSE.md
 └── 📄 datapackage.yaml
 ```
