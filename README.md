@@ -44,11 +44,11 @@ Minori | integer | Number of Ukrainian minors who arrived in Italy | 1000
 
 Field | Type | Description | Example
 -- | -- | -- | --
-wip | wip | wip | wip
-wip | wip | wip | wip
-wip | wip | wip | wip
-wip | wip | wip | wip
-wip | wip | wip | wip
+user_id | integer | wip | 2585782921
+status_id | integer | wip | 1509819925606678559
+created_at | datetime | wip | 2022-04-02 08:38:14
+screen_name | string | wip | Viminale
+text | string | wip | Lorem ipsum
 
 ## License
 <a href="https://creativecommons.org/licenses/by/4.0/"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/CC-BY_icon.svg/640px-CC-BY_icon.svg.png" width="150"/></a>
@@ -96,11 +96,11 @@ Minori | integer | Numero di minori ucraini arrivati in Italia | 1000
 
 Campo | Formato | Descrizione | Esempio
 -- | -- | -- | --
-wip | wip | wip | wip
-wip | wip | wip | wip
-wip | wip | wip | wip
-wip | wip | wip | wip
-wip | wip | wip | wip
+user_id | integer | wip | 2585782921
+status_id | integer | wip | 1509819925606678559
+created_at | datetime | wip | 2022-04-02 08:38:14
+screen_name | string | wip | Viminale
+text | string | wip | Lorem ipsum
 
 ## Licenza
 <a href="https://creativecommons.org/licenses/by/4.0/"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/CC-BY_icon.svg/640px-CC-BY_icon.svg.png" width="150"/></a>
