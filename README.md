@@ -1,10 +1,10 @@
 # profughiUcraina
-[![](https://img.shields.io/badge/frictionless-ready-%23EA6D4C)](https://frictionlessdata.io/) <a href="https://www.datibenecomune.it/"><img src="https://img.shields.io/badge/%F0%9F%99%8F-%23datiBeneComune-%23cc3232"/></a>
-
-- [![language-english](https://img.shields.io/badge/Language-english-red.svg)](#repository-structure)
-- [![language-italian](https://img.shields.io/badge/Language-italian-blue.svg)](#versione-italiana)
+[![language-english](https://img.shields.io/badge/Language-english-red.svg)](#description) [![language-italian](https://img.shields.io/badge/Language-italian-blue.svg)](#versione-italiana) [![](https://img.shields.io/badge/frictionless-ready-%23EA6D4C)](https://frictionlessdata.io/) <a href="https://www.datibenecomune.it/"><img src="https://img.shields.io/badge/%F0%9F%99%8F-%23datiBeneComune-%23cc3232"/></a>
 
 > ⚠️ WORK IN PROGRESS
+
+## Description
+We collect ukrainian refugees data based on Viminale's tweet (Italy). Data are scraped with this [R script](https://github.com/vi-enne/profughiUcraina/blob/main/script/profughiUcraina.R). 
 
 ## Repository structure
 ```
@@ -52,6 +52,9 @@ wip | wip | wip | wip
 <a href="https://creativecommons.org/licenses/by/4.0/"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/CC-BY_icon.svg/640px-CC-BY_icon.svg.png" width="150"/></a>
 ---
 # Versione Italiana
+
+## Descrizione
+Raccogliamo e rilasciamo dati relativi al flusso di profughi ucraini basati sui tweet dell'account ufficiale del Viminale. Lo scraping avviene tramite [questo script in R](https://github.com/vi-enne/profughiUcraina/blob/main/script/profughiUcraina.R).
 
 ## Struttura repository
 ```
