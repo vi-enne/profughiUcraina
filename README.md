@@ -17,7 +17,7 @@ profughiUcraina
 └── 📄 datapackage.yaml
 ```
 ## Metadata
-Each `csv` file in [`data`](https://github.com/vi-enne/profughiUcraina/tree/main/data) folder is documented according to [fricionless data standard](https://frictionlessdata.io/standards/#standards-toolkit). Metadata are stored in [datapackage.yaml](https://github.com/vi-enne/profughiUcraina/blob/main/datapackage.yaml)
+Each `csv` file in [`data`](https://github.com/vi-enne/profughiUcraina/tree/main/data) folder is described according to [fricionless data standard](https://frictionlessdata.io/standards/#standards-toolkit). Metadata are stored in [datapackage.yaml](https://github.com/vi-enne/profughiUcraina/blob/main/datapackage.yaml)
 
 ### [📄 outputProfughi.csv](https://raw.githubusercontent.com/vi-enne/profughiUcraina/main/data/outputProfughi.csv)
 - path: `data/`
