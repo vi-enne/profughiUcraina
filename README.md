@@ -1,5 +1,5 @@
 # profughiUcraina
-[![language-english](https://img.shields.io/badge/Language-english-red.svg)](#description) [![language-italian](https://img.shields.io/badge/Language-italian-blue.svg)](#versione-italiana) [![Frictionless](https://github.com/vi-enne/profughiUcraina/actions/workflows/frictionless.yml/badge.svg)](https://repository.frictionlessdata.io/report?user=vi-enne&repo=profughiUcraina&flow=frictionless) <a href="https://www.datibenecomune.it/"><img src="https://img.shields.io/badge/%F0%9F%99%8F-%23datiBeneComune-%23cc3232"/></a>
+[![language-english](https://img.shields.io/badge/Language-english-red.svg)](#description) [![language-italian](https://img.shields.io/badge/Language-italian-blue.svg)](#versione-italiana) [![Frictionless](https://github.com/vi-enne/profughiUcraina/actions/workflows/frictionless.yaml/badge.svg)](https://repository.frictionlessdata.io/report?user=vi-enne&repo=profughiUcraina&flow=frictionless) <a href="https://www.datibenecomune.it/"><img src="https://img.shields.io/badge/%F0%9F%99%8F-%23datiBeneComune-%23cc3232"/></a>
 
 ⚠️ If you want to receive updates, subscribe to the [ChangeLog RSS feed](https://github.com/vi-enne/profughiUcraina/commits/main/CHANGELOG.md.atom)
 
