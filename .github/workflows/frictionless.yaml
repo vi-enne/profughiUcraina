@@ -5,6 +5,10 @@ on:
     branches:
       - main/data
   workflow_dispatch:
+  workflow_run:
+    workflows: ["update values"]
+    types:
+      - completed
 
 jobs:
   validate:
