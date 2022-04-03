@@ -46,3 +46,7 @@ jobs:
           fi
       env:
         TZ: Europe/Rome
+
+    # validate data according to frictionless standard    
+    - name: Validate data
+      uses: frictionlessdata/repository@v1
