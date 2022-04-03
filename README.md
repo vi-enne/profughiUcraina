@@ -1,8 +1,6 @@
 # profughiUcraina
 [![language-english](https://img.shields.io/badge/Language-english-red.svg)](#description) [![language-italian](https://img.shields.io/badge/Language-italian-blue.svg)](#versione-italiana) [![](https://img.shields.io/badge/frictionless-ready-%23EA6D4C)](https://frictionlessdata.io/) <a href="https://www.datibenecomune.it/"><img src="https://img.shields.io/badge/%F0%9F%99%8F-%23datiBeneComune-%23cc3232"/></a>
 
-> ⚠️ WORK IN PROGRESS
-
 ⚠️ If you want to receive updates, subscribe to the [ChangeLog RSS feed](https://github.com/vi-enne/profughiUcraina/commits/main/CHANGELOG.md.atom)
 
 ## Description
@@ -12,8 +10,7 @@ We collect ukrainian refugees data based on [Viminale's tweet](https://twitter.c
 ```
 profughiUcraina
 ├── 📂 data
-│   ├── 📄 outputProfughi.csv
-│   └── 📄 tweet.csv
+│   └── 📄 outputProfughi.csv
 ├── 📂 script
 │   └── 📄 profughiUcraina.R
 ├── 📄 README.md
@@ -21,6 +18,7 @@ profughiUcraina
 ├── 📄 LICENSE.md
 └── 📄 datapackage.yaml
 ```
+
 ## Metadata
 Each `csv` file in [`data`](https://github.com/vi-enne/profughiUcraina/tree/main/data) folder is described according to [fricionless data standard](https://frictionlessdata.io/standards/#standards-toolkit). Metadata are stored in [datapackage.yaml](https://github.com/vi-enne/profughiUcraina/blob/main/datapackage.yaml)
 
@@ -37,19 +35,6 @@ Uomini | integer | Number of Ukrainian men who arrived in Italy | 1000
 Donne | integer | Number of Ukrainian women who arrived in Italy | 1000
 Minori | integer | Number of Ukrainian minors who arrived in Italy | 1000
 
-### [📄 tweet.csv](https://raw.githubusercontent.com/vi-enne/profughiUcraina/main/data/tweet.csv)
-- path: `data/`
-- encoding: `UTF-8` ⚠️
-- delimiter: `,`
-
-Field | Type | Description | Example
--- | -- | -- | --
-user_id | integer | wip | 2585782921
-status_id | integer | wip | 1509819925606678559
-created_at | datetime | wip | 2022-04-02 08:38:14
-screen_name | string | wip | Viminale
-text | string | wip | Lorem ipsum
-
 ## License
 <a href="https://creativecommons.org/licenses/by/4.0/"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/CC-BY_icon.svg/640px-CC-BY_icon.svg.png" width="150"/></a>
 ---
@@ -64,8 +49,7 @@ Raccogliamo e rilasciamo dati relativi al flusso di profughi ucraini basati sui 
 ```
 profughiUcraina
 ├── 📂 data
-│   ├── 📄 outputProfughi.csv
-│   └── 📄 tweet.csv
+│   └── 📄 outputProfughi.csv
 ├── 📂 script
 │   └── 📄 profughiUcraina.R
 ├── 📄 README.md
@@ -88,19 +72,6 @@ Totale | integer | Numero totale di profughi ucraini arrivati in Italia | 1000
 Uomini | integer | Numero di uomini ucraini arrivati in Italia | 1000
 Donne | integer | Numero di donne ucraine arrivate in Italia | 1000
 Minori | integer | Numero di minori ucraini arrivati in Italia | 1000
-
-### [📄 tweet.csv](https://raw.githubusercontent.com/vi-enne/profughiUcraina/main/data/tweet.csv)
-- percorso: `data/`
-- encoding: `UTF-8` ⚠️
-- separatore di campo: `,`
-
-Campo | Formato | Descrizione | Esempio
--- | -- | -- | --
-user_id | integer | wip | 2585782921
-status_id | integer | wip | 1509819925606678559
-created_at | datetime | wip | 2022-04-02 08:38:14
-screen_name | string | wip | Viminale
-text | string | wip | Lorem ipsum
 
 ## Licenza
 <a href="https://creativecommons.org/licenses/by/4.0/"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/CC-BY_icon.svg/640px-CC-BY_icon.svg.png" width="150"/></a>
