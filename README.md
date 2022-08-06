@@ -36,7 +36,7 @@ Donne | integer | Number of Ukrainian women who arrived in Italy | 1000
 Minori | integer | Number of Ukrainian minors who arrived in Italy | 1000
 
 ## License
-<a href="https://creativecommons.org/licenses/by/4.0/"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/CC-BY_icon.svg/640px-CC-BY_icon.svg.png" width="150"/></a>
+<a href="https://creativecommons.org/licenses/by/4.0/"><img src="https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by.png" width="150"/></a>
 ---
 # Versione Italiana
 
@@ -74,4 +74,4 @@ Donne | integer | Numero di donne ucraine arrivate in Italia | 1000
 Minori | integer | Numero di minori ucraini arrivati in Italia | 1000
 
 ## Licenza
-<a href="https://creativecommons.org/licenses/by/4.0/"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/CC-BY_icon.svg/640px-CC-BY_icon.svg.png" width="150"/></a>
+<a href="https://creativecommons.org/licenses/by/4.0/"><img src="https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by.png" width="150"/></a>
